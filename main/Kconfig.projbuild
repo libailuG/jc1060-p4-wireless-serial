@@ -1,0 +1,12 @@
+menu "JC1060 hardware examples"
+config DEMO_WIFI_SSID
+    string "Wi-Fi SSID (empty disables Connect action)"
+    default ""
+config DEMO_WIFI_PASSWORD
+    string "Wi-Fi password"
+    default ""
+config DEMO_RS485_BAUD
+    int "RS485 baud rate (8N1)"
+    range 1200 921600
+    default 115200
+endmenu

@@ -1,0 +1,16 @@
+build/
+managed_components/
+sdkconfig.old
+*.log
+__pycache__/
+*.pyc
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+.DS_Store
+Thumbs.db
+# 设置 Wi-Fi 密码后，检查 sdkconfig 再决定是否提交；不要将真实密码发布到仓库。
